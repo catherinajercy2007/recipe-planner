@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Recipe Planner</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="container">
+    <h1>🍽 Smart Recipe Planner</h1>
+
+    <!-- Pantry Section -->
+    <div class="section">
+      <h2>🧺 Pantry Manager</h2>
+      <input type="text" id="ingredientInput" placeholder="Ingredient name">
+      <input type="number" id="quantityInput" placeholder="Quantity">
+      <button onclick="addIngredient()">Add Ingredient</button>
+      <ul id="pantryList"></ul>
+    </div>
+
+    <!-- Recipe Section -->
+    <div class="section">
+      <h2>📖 Recipe Planner</h2>
+      <input type="text" id="recipeNameInput" placeholder="Recipe name">
+      <input type="text" id="recipeIngredientsInput" placeholder="Ingredients (comma separated)">
+      <button onclick="addRecipe()">Add Recipe</button>
+      <ul id="recipeList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
