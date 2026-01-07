@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: #ffffff;
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li {
+  background: #f9fafb;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+
+.status-ok {
+  color: green;
+  font-weight: bold;
+}
+
+.status-missing {
+  color: red;
+  font-weight: bold;
+}
