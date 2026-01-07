@@ -41,12 +41,12 @@ This project was developed as part of my **Web Development Internship tasks**.
 ---
 
 ## 🔗 Live Demo
-(Add GitHub Pages link here)
+https://catherinajercy2007.github.io/recipe-planner/
 
 ---
 
 ## 📂 Repository
-(Add GitHub repository link here)
+https://github.com/catherinajercy2007/recipe-planner
 
 ---
 
